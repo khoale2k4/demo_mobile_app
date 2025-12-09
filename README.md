@@ -1,4 +1,4 @@
-# React Native Testing Demo.
+# React Native Testing Demo
 
 Demo project hướng dẫn **Unit Testing** với **Jest** và **React Native Testing Library** cho môn **Phát triển Ứng dụng trên Thiết bị Di động (CO3043)**.
 
