@@ -2,10 +2,10 @@
 
 Demo project hướng dẫn **Unit Testing** với **Jest** và **React Native Testing Library** cho môn **Phát triển Ứng dụng trên Thiết bị Di động (CO3043)**.
 
-[![Run Tests](https://github.com/YOUR_USERNAME/demo_mobile/actions/workflows/test.yml/badge.svg)](https://github.com/YOUR_USERNAME/demo_mobile/actions/workflows/test.yml)
-[![SonarCloud](https://github.com/YOUR_USERNAME/demo_mobile/actions/workflows/sonarcloud.yml/badge.svg)](https://github.com/YOUR_USERNAME/demo_mobile/actions/workflows/sonarcloud.yml)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=YOUR_PROJECT_KEY&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=YOUR_PROJECT_KEY)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=YOUR_PROJECT_KEY&metric=coverage)](https://sonarcloud.io/summary/new_code?id=YOUR_PROJECT_KEY)
+[![Run Tests](https://github.com/khoale2k4/demo_mobile/actions/workflows/test.yml/badge.svg)](https://github.com/khoale2k4/demo_mobile/actions/workflows/test.yml)
+[![SonarCloud](https://github.com/khoale2k4/demo_mobile/actions/workflows/sonarcloud.yml/badge.svg)](https://github.com/khoale2k4/demo_mobile/actions/workflows/sonarcloud.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=khoale2k4_demo_mobile_app&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=khoale2k4_demo_mobile_app)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=khoale2k4_demo_mobile_app&metric=coverage)](https://sonarcloud.io/summary/new_code?id=khoale2k4_demo_mobile_app)
 
 ## Tổng quan
 
@@ -205,7 +205,7 @@ git init
 git add .
 git commit -m "Initial commit with tests"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/demo_mobile.git
+git remote add origin https://github.com/khoale2k4/demo_mobile.git
 git push -u origin main
 ```
 
@@ -260,7 +260,7 @@ jobs:
 ### Bước 4: Thêm badge vào README
 
 ```markdown
-[![Run Tests](https://github.com/YOUR_USERNAME/demo_mobile/actions/workflows/test.yml/badge.svg)](https://github.com/YOUR_USERNAME/demo_mobile/actions/workflows/test.yml)
+[![Run Tests](https://github.com/khoale2k4/demo_mobile/actions/workflows/test.yml/badge.svg)](https://github.com/khoale2k4/demo_mobile/actions/workflows/test.yml)
 ```
 
 ---
@@ -285,8 +285,8 @@ Sau khi tạo project, lấy thông tin:
 Tạo file `sonar-project.properties`:
 
 ```properties
-sonar.projectKey=YOUR_PROJECT_KEY
-sonar.organization=YOUR_ORGANIZATION_KEY
+sonar.projectKey=khoale2k4_demo_mobile_app
+sonar.organization=khoale2k4
 
 sonar.projectName=Demo Mobile - React Native Testing
 sonar.projectVersion=1.0
@@ -366,8 +366,8 @@ jobs:
 ### Bước 7: Thêm badges vào README
 
 ```markdown
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=YOUR_PROJECT_KEY&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=YOUR_PROJECT_KEY)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=YOUR_PROJECT_KEY&metric=coverage)](https://sonarcloud.io/summary/new_code?id=YOUR_PROJECT_KEY)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=khoale2k4_demo_mobile_app&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=khoale2k4_demo_mobile_app)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=khoale2k4_demo_mobile_app&metric=coverage)](https://sonarcloud.io/summary/new_code?id=khoale2k4_demo_mobile_app)
 ```
 
 ---
@@ -481,4 +481,4 @@ MIT License - Dự án demo cho mục đích học tập.
 
 ---
 
-**Lưu ý**: Thay thế `YOUR_USERNAME`, `YOUR_PROJECT_KEY`, `YOUR_ORGANIZATION_KEY` bằng thông tin thực tế của bạn.
+**Lưu ý**: Thay thế `khoale2k4`, `khoale2k4_demo_mobile_app`, `YOUR_ORGANIZATION_KEY` bằng thông tin thực tế của bạn.
